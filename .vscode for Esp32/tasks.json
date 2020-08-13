@@ -1,0 +1,37 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Esp32-Compile",
+            "type": "shell",
+            "command": "arduino-cli compile --fqbn esp32:esp32:esp32doit-devkit-v1 ${fileDirname}",
+            "group": "build",
+            "isBackground":false,
+            "presentation":{
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Esp32-Upload",
+            "type": "shell",
+            "command":"arduino-cli upload -v -p COM4 --fqbn esp32:esp32:esp32doit-devkit-v1 ${fileDirname}",
+            "group": "test",
+            "isBackground":false,
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false
+            },
+            "problemMatcher": []
+        }
+    ]
+}
