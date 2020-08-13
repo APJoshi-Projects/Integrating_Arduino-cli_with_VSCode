@@ -1,0 +1,45 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/bootloaders/**",
+                "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/cores/esp8266/**",
+                "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/libraries/**",
+                "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/**",
+                "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/nodemcu",
+                "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/esptool/flasher_stub/**",
+                "D:/Projects/Arduino/libraries/**"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/bootloaders/**",
+                    "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/cores/esp8266/**",
+                    "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/libraries/**",
+                    "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/**",
+                    "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/nodemcu",
+                    "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/esptool/flasher_stub/**",
+                    "D:/Projects/Arduino/libraries/**"
+                ]
+            },
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "DF_CPU=80000000L",
+                "DARDUINO=10607",
+                "DARDUINO_ESP8266_NODEMCU",
+                "DARDUINO_ARCH_ESP8266",
+                "DFLASHMODE_DIO",
+                "USBCON"
+            ],
+            "compilerPath": "${env:USERPROFILE}/AppData/Local/Arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
