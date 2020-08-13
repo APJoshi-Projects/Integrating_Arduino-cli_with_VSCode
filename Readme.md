@@ -70,16 +70,13 @@ example blink.ino
 /*****************
 #include <Arduino.h>
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);
 }
-
-// the loop function runs over and over again forever
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000);
 }     
 *****************/
     iii.  copy the required .vscode folder in your arduinosketch directory.
@@ -96,6 +93,6 @@ Directory of D:\Projects\Arduino\blink
                                       >> click "ArduinoUno-Upload" for upload.
 **Note: check "COMport" mentioned in the "tasks.json" file. change it as necessary for upload.
 
-1. .vscode for Arduino Uno (c_cpp_configuration.json & task.json) <- Tested and working perfect.
-2. .vscode for Esp8266 (c_cpp_configuration.json & task.json) <- Not tested.
-3. .vscode for Esp32 (c_cpp_configuration.json & task.json) <- Work in progress. 
+1. .vscode for Arduino Uno (c_cpp_properties.json & task.json) <- Tested and working perfect.
+2. .vscode for Esp8266 (c_cpp_properties.json & task.json) <- Not tested.
+3. .vscode for Esp32 (c_cpp_properties.json & task.json) <- Work in progress.
